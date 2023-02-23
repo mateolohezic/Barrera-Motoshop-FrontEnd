@@ -1,0 +1,75 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario__login{
+    background-color: white;
+    font-family: 'Saira', sans-serif;
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+
+.titulo__login{
+    font-weight: 600;
+}
+
+.subtitulo__login{
+    font-weight: 500;
+}
+
+
+.bg__color{
+    background-color: #495664;
+}
+
+.restablecer__contraseña{
+    color: #a1181a;
+    text-decoration: none;
+}
+
+.restablecer__contraseña:hover{
+    color: #ce1d1f;
+}
+
+@media (min-width: 576px){
+
+    .titulo__login{
+        font-size: 2.5rem;
+
+    }
+    
+    .subtitulo__login{
+        font-size: 1.5rem;
+    }
+    
+    .formulario__login{
+        width: 40%;
+    }
+}
+
+@media (max-width: 576px){
+
+    .titulo__login{
+        font-size: 1.5rem;
+    }
+    
+    .subtitulo__login{
+        font-size: 1rem;
+    }
+
+    .formulario__login{
+        width: 90%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+    .formulario__login{
+        width: 60%;
+    }
+
+    .titulo__login{
+        font-size: 2rem;
+    }
+}
