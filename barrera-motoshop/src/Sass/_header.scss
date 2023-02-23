@@ -1,0 +1,53 @@
+#header{
+    width: 100%;
+    height: 12rem;
+    background-color: #2F2F2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.header-logo{
+    width: 25rem;
+}
+
+.usuario-svg{
+    width: 1.5rem;
+}
+
+.carrito-svg{
+    width: 1.5rem;
+}
+
+
+.usuario{
+    position: absolute;
+    justify-content: flex-end;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    right: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        border: 1px solid red;
+    }
+}
+.carrito{
+    position: absolute;
+    justify-content: flex-end;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        border: 1px solid red;
+    }
+}
