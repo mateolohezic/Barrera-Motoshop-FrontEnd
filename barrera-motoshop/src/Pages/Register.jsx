@@ -1,6 +1,5 @@
 import React from 'react'
 import FormularioRegistrarUsuario from '../Components/FormularioRegistrarUsuario';
-import '../Sass/Register.css';
 
 function Register() {
 

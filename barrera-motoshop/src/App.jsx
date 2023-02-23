@@ -4,12 +4,13 @@ import './sass/main.scss'
 import Home from './Pages/Home';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
-import Header from './Pages/Header';
+import Header from './Components/Header';
 
 function App() {
 
   return (
     <>
+    <Header/>
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/Login" element={<Login/>} />
