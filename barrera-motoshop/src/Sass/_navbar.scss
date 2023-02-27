@@ -1,0 +1,130 @@
+/* -------- PHONE -------- */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+    .nav__conteiner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        flex-direction: row-reverse;
+        width: 100%;
+        height: 7rem;
+        background-color: #272727;
+    }
+    .header__logo{
+        width: 10rem;
+        padding-top: 0;
+    }
+
+    .nav__link{
+        color: #272727;
+        position: relative;
+        text-decoration: none;
+        padding: 2rem 2rem;
+    }
+
+    .nav{
+        position: absolute;
+        top: 10.5rem;
+        right: 0px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        transform: translate(-100%);
+        transition: 0.3s ease all;
+
+        &.open{
+            transform: translate(0%);
+        }
+    }
+
+    .nav__toggle{
+        width: 2.5rem;
+        height: 2.5rem;
+        border: 1px solid white;
+        background-color: #272727;
+        border-radius: 50%;
+        right: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0rem 4rem 0rem 0rem;
+    }
+
+    .nav__toggle__bar{
+        width: 18px;
+        height: 2px;
+        background-color: white;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+
+    .nav__toggle.open > span{
+        transform: rotate(50deg) translate(2px, -1px);;
+       }
+
+       .nav__toggle.open > span:nth-child(2){
+        display: none;
+       }
+
+       .nav__toggle.open > span:nth-child(3){
+        transform: rotate(-45deg) translate(0px, 1px);
+       }
+        }       
+
+/* -------- TABLET -------- */
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
+
+/* -------- DESKTOP -------- */
+
+@media only screen and (min-width: 768px){
+
+    .nav__conteiner{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .header__logo{
+        width: 24rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .nav{
+        display: flex;
+        width: 100%;
+        background: #313131;
+        height: 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav__link{
+        color: white;
+        padding: 0rem 4rem;
+        font-size: 1.10rem;
+        text-decoration: none;
+
+        &:hover{
+            color: red;
+        font-size: 1.10rem;
+        border-bottom: 1px solid red;
+        transition: all 0.2s ease-out;
+        box-shadow: inset 0px -5px 2px 0px rgb(212 1 1 / 10%);
+        }
+    }
+
+}

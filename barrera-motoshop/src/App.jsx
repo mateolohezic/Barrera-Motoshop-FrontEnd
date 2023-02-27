@@ -3,13 +3,14 @@ import { Route, Routes } from "react-router-dom";
 import './sass/main.scss'
 import Home from './Pages/Home';
 import Login from './Pages/Login';
-import Register from './Pages/Register';
 import Header from './Components/Header';
 import Admin from './Pages/Admin';
 import AdminProductos from './Pages/AdminProductos';
 import AdminCategorias from './Pages/AdminCategorias';
 import AdminUsuarios from './Pages/AdminUsuarios';
 import AdminCompras from './Pages/AdminCompras';
+import Footer from './Components/Footer';
+
 
 function App() {
 
@@ -26,6 +27,11 @@ function App() {
       <Route path="/Admin/Usuarios" element={<AdminUsuarios/>} />
       <Route path="/Admin/Compras" element={<AdminCompras/>} />
     </Routes>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/Login" element={<Login/>} />
+      </Routes>
+    <Footer/>
     </>
   )
 }
