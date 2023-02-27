@@ -3,20 +3,20 @@ import { Route, Routes } from "react-router-dom";
 import './sass/main.scss'
 import Home from './Pages/Home';
 import Login from './Pages/Login';
-import Register from './Pages/Register';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
+
 
 function App() {
 
   return (
     <>
     <Header/>
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/Login" element={<Login/>} />
-      <Route path="/Register" element={<Register/>} />
-      <Route path="/Header" element={<Header/>} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/Login" element={<Login/>} />
+      </Routes>
+    <Footer/>
     </>
   )
 }
