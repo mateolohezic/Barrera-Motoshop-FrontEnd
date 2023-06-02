@@ -1,5 +1,6 @@
 import React from 'react'
-import FormularioIniciarSesion from '../Components/FormularioIniciarSesion';
+import './login.css'
+import FormularioIniciarSesion from '../../Components/FormularioIniciarSesion/FormularioIniciarSesion'
 
 function Login() {
 
@@ -8,7 +9,7 @@ function Login() {
             <div className='login mt-5 mb-5'>
                 <div className="formulario__login mx-auto pb-5">
                     <div className="text-center mx-auto w-75 mb-4 titulo__login">Inicio de sesión</div>
-                    <div className="text-center mx-auto w-75 mb-4 subtitulo__login">Ingreso con email</div>
+                    <div className="text-center mx-auto w-75 mb-4 subtitulo__login">Ingreso con correo electrónico</div>
                     <div>
                       <FormularioIniciarSesion />
                     </div>

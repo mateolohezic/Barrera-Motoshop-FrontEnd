@@ -1,5 +1,5 @@
 import React from "react";
-import FormularioRegistrarUsuario from "../Components/FormularioRegistrarUsuario";
+import FormularioRegistrarUsuario from "../Components/FormularioRegistrarUsuario/FormularioRegistrarUsuario";
 
 function Register() {
   return (

@@ -10,11 +10,11 @@
     padding-left: 1rem;
     padding: 1.3rem;
     border: 1px solid #464646;
+}
 
-    &:hover {
-        background-color: #CE1D1F;
-        cursor:pointer
-    }
+.titulo__seccion__admin:hover {
+    background-color: #CE1D1F;
+    cursor:pointer
 }
 
 .active{
@@ -26,14 +26,12 @@
 }
 
 @media (min-width: 992px){
-
     .caja__admin{
         width: 85%;
     }
 }
 
 @media (max-width: 991px){
-
     .caja__admin{
         width: 90%;
     }

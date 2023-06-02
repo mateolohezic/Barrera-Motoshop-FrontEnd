@@ -36,7 +36,7 @@ function FormularioIniciarSesion() {
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="row justify-content-center mb-2">
                     <div className="mb-4 mt-2 col-xxl-10 col-xl-10 col-lg-12 col-sm-12 col-md-12">
-                        <input type="text" placeholder="Correo Electrónico" className="form-control form-control-lg" {...register("email", {
+                        <input type="text" placeholder="Correo electrónico" className="form-control form-control-lg" {...register("email", {
                             required:  <div className='text-danger mt-2 ms-1 fs-6'>E-mail requerido.</div>,
                             pattern: {
                                 value: /^\w+[\w-\.]*\@\w+((-\w+)|(\w*))\.[a-z]{2,3}$/i,
