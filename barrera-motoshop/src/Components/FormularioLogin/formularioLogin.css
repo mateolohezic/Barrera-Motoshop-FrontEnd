@@ -1,0 +1,56 @@
+.FormularioLoginForm{
+    width: 90%;
+    margin: auto;
+}
+
+.inputLogin{
+    background-color: #FFFFFF;
+    border: 1px solid #C6C6C6;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.linkOlvideContraseña{
+    color: #838282;
+    transition: color 0.3s ease;
+}
+
+.linkOlvideContraseña:hover{
+    color: #CE1D1F;
+}    
+
+.divBotonIniciarSesion{
+    justify-content: end;
+}
+
+.linkOlvideContraseñaResponsive{
+    display: none;
+}
+
+.botonSubmitLogin{
+    width: 160px;
+    background: #CE1D1F;
+    border: 1px solid #CE1D1F;
+    border-radius: 4px;
+    color: white;
+    padding-inline: 0.2rem;
+    padding-block: 0.5rem;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    font-style: normal;
+    height: 44px;
+    transition: all 0.3s ease;
+}
+
+.botonSubmitLogin:hover{
+    transform: scale(1.05);
+    background: #cb4446;
+    border: 1px solid #cb4446;
+}
+
+.labelFormLogin{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #505050;
+}

@@ -1,0 +1,62 @@
+.loginContenido{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaLoginGrande{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 40%;
+    margin: auto;
+    padding-block: 3rem;
+    margin-top: 0;
+}
+
+.tituloIniciarSesion{
+    text-align: center;
+}
+
+.tituloIniciarSesion h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+}
+
+.parrafoIniciarSesion{
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.parrafoIniciarSesion p{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+.logoIniciarSesion{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.volverAlInicioLogin{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    filter: drop-shadow(2px 1px 4px rgb(0, 0, 0));
+}
+
+.volverAlInicioLogin a{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+}
+
+.volverAlInicioLogin a:hover{
+    color: rgb(235, 235, 235);
+    font-size: 1.35rem;
+}
