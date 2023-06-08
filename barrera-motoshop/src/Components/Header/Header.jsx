@@ -4,8 +4,10 @@ import Cookies from 'js-cookie'
 import logo from '../../assets/logo.svg'
 import logoUser from '../../assets/user.svg'
 import logoCarrito from '../../assets/carrito.svg'
+import logoCategorias from '../../assets/menuCategorias.png'
 import { useLocation } from 'react-router-dom';
 import './header.css'
+import OffcanvasCategorias from '../OffcanvasCategorias/OffcanvasCategorias';
 
 function Header() {
 
@@ -46,10 +48,16 @@ function Header() {
                                 <li className="nav-item">
                                     <a className="nav-link" aria-current="page" href="/Iniciar-sesion"><img src={logoUser} alt="Perfil Barra de Navegación" /></a>
                                 </li>
+                                <li className='nav-item'>
+                                    <a className="nav-link" data-bs-toggle="offcanvas" href="#offcanvasCategorias" role="button" aria-controls="offcanvasCategorias">
+                                        <img src={logoCategorias} alt="Perfil Barra de Navegación" />
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
+                <OffcanvasCategorias/>
             </>
         )
     }

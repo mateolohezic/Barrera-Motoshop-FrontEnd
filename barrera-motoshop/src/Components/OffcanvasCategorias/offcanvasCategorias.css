@@ -1,0 +1,71 @@
+.offcanvas{
+    padding-top: 1rem;
+    z-index: 1000002;
+    background-color: #E3E3E3;
+}
+
+.offcanvas-backdrop.show{
+    z-index: 1000001;
+}
+
+.btn-close{
+    transition: all 0.3s ease;
+}
+
+.btn-close:hover{
+    transform: scale(1.3);
+}
+
+.offcanvas-header{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(58, 58, 58,0.3);
+}
+
+.offcanvasTitulo{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    color: rgb(58,58,58, 1);
+}
+
+.offcanvas-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: middle;
+    padding: 0;
+}
+
+.categoriaOffcanvas{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(58, 58, 58,0.2);
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    color: rgb(58,58,58, 0.8);
+    cursor: pointer;
+}
+
+.categoriaOffcanvas:hover{
+    border-bottom: 1px solid rgb(206, 29, 31,1);
+    background-color: #FFFFFF;
+    color: rgb(58,58,58, 1);
+    transform: scale(1.02);
+}
+
+.categoriaOffcanvas i{
+    color: rgb(206, 29, 31, 0.5);
+}
+
+.categoriaOffcanvas:hover i{
+    color: rgb(206, 29, 31, 0.8);
+}

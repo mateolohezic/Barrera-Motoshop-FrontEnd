@@ -47,6 +47,10 @@ input:-webkit-autofill:active {
     -webkit-text-fill-color: black !important;
 }
 
+.btn-close:focus{
+    box-shadow: none;
+}
+
 .form-control:focus {
     box-shadow: none;
     border-color: none;
