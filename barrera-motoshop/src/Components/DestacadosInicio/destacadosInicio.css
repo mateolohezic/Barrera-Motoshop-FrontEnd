@@ -1,0 +1,40 @@
+.destacadosInicioContenedor{
+    width: 100%;
+    padding-inline: 1.5rem;
+    margin-top: 4rem;
+}
+
+.tituloDestacadosInicio{
+    padding-left: 3rem;
+}
+
+.tituloDestacadosInicio h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 3.4rem;
+}
+
+.tituloDestacadosInicio img{
+    width: 45px;
+    height: 45px;
+    margin-right: 0.5rem;
+    position: relative;
+    top: -2px;
+}
+
+.carouselDestacadoInicio{
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.carouselCardsDestacadoInicio{
+    padding-block: 1.5rem;
+    padding-left: 2rem;
+}
+
+.divisionDestacadosInicio{
+    margin-left: 4rem;
+    width: 40%;
+    height: 2px;
+    background-color: rgb(58,58,58,0.2);
+}

@@ -1,0 +1,21 @@
+.headerInformacionInicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    align-items: middle;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0,0.7));
+    background-color: #3A3A3A;
+    padding-block: 0.7rem;
+}
+
+.itemHeaderInformacion{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.itemHeaderInformacion i{
+    color: #CE1D1F;
+    margin-right: 0.5rem;
+}

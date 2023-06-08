@@ -1,0 +1,76 @@
+.cardProducto{
+    width: 240px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px rgb(0,0,0, 0.4));
+}
+
+.portadaCardProducto{
+    width: 240px;
+    max-height: 240px;
+    margin: auto;
+    outline: 2px solid #1a1a1a;
+    outline-offset: -2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.portadaCardProducto img{
+    max-width: 100%;
+    max-height: 240px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tituloCardProducto{
+    text-align: start;
+    padding-inline: 1rem;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: rgb(255,255,255,0.8);
+}
+
+.tituloCardProducto span{
+    /* font-family: 'Anton', sans-serif; */
+    letter-spacing: -1px;
+}
+
+.precioCardProducto{
+    text-align: start;
+    padding-inline: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(255,255,255,0.9);
+    letter-spacing: -1px;
+}
+
+.botonCardProducto{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-top: 1rem;
+}
+
+.botonCardProducto button{
+    padding-inline: 0.6rem;
+    padding-block: 0.3rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #CE1D1F;
+    color: #FFFFFF;
+    text-align: start;
+    transition: all 0.3s ease;
+}
+
+.botonCardProducto button:hover{
+    padding-right: 1.5rem;
+}
+
+.botonCardProducto img{
+    width: 15px;
+    color: #FFFFFF;
+}
