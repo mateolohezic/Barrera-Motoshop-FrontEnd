@@ -92,7 +92,20 @@ body.iniciar-sesion{
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;  
-    width: 100vw;
+    width: 100%;
+} 
+
+body.product-details{
+    background-color: rgb(0,0,0,1);
+    /* filter: blur(0px); */
+    /* background-color: #ff000055; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;  
+    width: 100%;
 } 
 
 .bgLogin{
