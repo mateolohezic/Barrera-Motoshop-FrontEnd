@@ -29,7 +29,7 @@ function NovedadesInicio() {
     return (
         <>
             <div className='destacadosInicioContenedor'>
-                <div className='tituloDestacadosInicio'><h1><img src={newIcon} alt="Destacados Inicio" />NOVEDADES</h1></div>
+                <div className='tituloDestacadosInicio'><h1><i className="bi bi-chevron-double-right"></i>NOVEDADES</h1></div>
             </div>
             <div className='divisionDestacadosInicio'></div>
             <div className='carouselDestacadoInicio'>

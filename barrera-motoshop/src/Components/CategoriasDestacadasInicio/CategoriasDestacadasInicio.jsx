@@ -8,28 +8,36 @@ function CategoriasDestacadasInicio() {
                 <div className='tituloCategoriasDestacadasInicio'><h1>CATEGORIAS DESTACADAS</h1></div>
                 <div className='contenedorCategoriasDestacadas'>
                     <div className='itemCategoriasDestacadas1 itemCategoriasDestacadas'>
-                        <div className='gradienteCategorias'></div>
-                        <div className='textosCategoria'>
-                            <div className='tituloCategoriasDestacadas'>ESCAPES</div>
-                        </div>
+                        <a href="/Categorias/Categoria">
+                            <div className='gradienteCategorias'></div>
+                            <div className='textosCategoria'>
+                                <div className='tituloCategoriasDestacadas'>ESCAPES</div>
+                            </div>
+                        </a>
                     </div>
                     <div className='itemCategoriasDestacadas2 itemCategoriasDestacadas'>
-                        <div className='gradienteCategorias'></div>
-                        <div className='textosCategoria'>
-                            <div className='tituloCategoriasDestacadas'>REPUESTOS</div>
-                        </div> 
+                        <a href="/Categorias/Categoria">
+                            <div className='gradienteCategorias'></div>
+                            <div className='textosCategoria'>
+                                <div className='tituloCategoriasDestacadas'>REPUESTOS</div>
+                            </div> 
+                        </a>
                     </div>
                     <div className='itemCategoriasDestacadas3 itemCategoriasDestacadas'>
-                        <div className='gradienteCategorias'></div>
-                        <div className='textosCategoria'>
-                            <div className='tituloCategoriasDestacadas'>MOTOS</div>
-                        </div>
+                        <a href="/Categorias/Categoria">
+                            <div className='gradienteCategorias'></div>
+                            <div className='textosCategoria'>
+                                <div className='tituloCategoriasDestacadas'>MOTOS</div>
+                            </div>
+                        </a>
                     </div>
                     <div className='itemCategoriasDestacadas4 itemCategoriasDestacadas'>
-                        <div className='gradienteCategorias'></div>
-                        <div className='textosCategoria'>
-                            <div className='tituloCategoriasDestacadas'>ROPA</div>
-                        </div>
+                        <a href="/Categorias/Categoria">
+                            <div className='gradienteCategorias'></div>
+                            <div className='textosCategoria'>
+                                <div className='tituloCategoriasDestacadas'>ROPA</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

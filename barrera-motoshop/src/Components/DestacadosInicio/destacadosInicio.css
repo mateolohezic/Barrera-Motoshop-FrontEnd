@@ -11,6 +11,16 @@
 .tituloDestacadosInicio h1{
     font-family: 'Anton', sans-serif;
     font-size: 3.4rem;
+    letter-spacing: -1.5px;
+    color: rgb(25, 25, 25, 1);
+}
+
+.tituloDestacadosInicio i{
+    font-size: 3.3rem;
+    position: relative;
+    top: -3px;
+    margin-right: 0.3rem;
+    color: rgb(206, 29, 31, 0.9);
 }
 
 .tituloDestacadosInicio img{

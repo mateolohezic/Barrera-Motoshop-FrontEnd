@@ -12,7 +12,6 @@ import TiraMarcas from '../../Components/TiraMarcas/TiraMarcas'
 function Home() {
   return (
     <>
-      <div className="bg"></div>
       <PortadaInicio/>
       <HeaderInformacion/>
       <DestacadosInicio/>

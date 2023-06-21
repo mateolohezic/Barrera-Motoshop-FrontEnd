@@ -6,6 +6,7 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home/Home';
 import ProductDetails from './Pages/ProductDetails/ProductDetails';
+import Categoria from './Pages/Categoria/Categoria';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/Iniciar-sesion" element={<Login/>} />
       <Route path="/Productos/Producto" element={<ProductDetails/>} />
+      <Route path="/Categorias/Categoria" element={<Categoria/>} />
     </Routes>
     <Footer/>
     </>

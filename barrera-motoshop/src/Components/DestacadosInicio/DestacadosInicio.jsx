@@ -29,7 +29,7 @@ function DestacadosInicio() {
     return (
         <>
             <div className='destacadosInicioContenedor'>
-                <div className='tituloDestacadosInicio'><h1><img src={favourite} alt="Destacados Inicio" />DESTACADOS</h1></div>
+                <div className='tituloDestacadosInicio'><h1><i className="bi bi-chevron-double-right"></i>DESTACADOS</h1></div>
             </div>
             <div className='divisionDestacadosInicio'></div>
             <div className='carouselDestacadoInicio'>

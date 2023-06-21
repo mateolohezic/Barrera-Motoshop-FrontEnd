@@ -1,8 +1,77 @@
 .ContenedorProductDetails{
     width: 70%;
     margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 30rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
+    filter: drop-shadow(0px 0px 10px rgba(58, 58, 58, 0.4));
+    border: 1px solid rgb(58, 58, 58, 0.1);
+}
+
+.botonVolverAlInicio{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.botonVolverAlInicio button{
+    padding-inline: 1.5rem;
+    padding-block: 0.5rem;
+    background-color: rgb(206, 29, 31);
+    font-size: 1.1rem;
+    font-weight: 300;
+    border-radius: 5px;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.botonVolverAlInicio i{
+    margin-right: -0.2rem;
+    position: relative;
+    right: 10px;
+    top: 1.5px;
+}
+
+.botonVolverAlInicio button:hover{
+    transform: scale(1.07);
+    background-color: rgb(206, 29, 31,0.8);
+}
+
+.contenedorDescripcionProductDetails{
+    width: 100%;
+    margin: auto;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    padding-inline: 2rem;
+    padding-bottom: 3rem;
+    filter: drop-shadow(0px 0px 5px rgba(58, 58, 58, 0.4));
+    background-color: #FFFFFF;
+    border-top: 1px solid rgb(58, 58, 58, 0.3);
+}
+
+.contenedorDescripcionProductDetails h4{
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+    color: rgb(58,58,58,1);
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid rgb(206, 29, 31,0.4);
+}
+
+.contenedorDescripcionProductDetails i{
+    font-size: 2.2rem;
+    margin-right: 0.3rem;
+    color: rgb(206, 29, 31, 0.9);
+}
+
+.contenedorParrafosProductDetails{
+    padding-top: 1rem;
+    text-align: start;
+}
+
+.contenedorParrafosProductDetails p{
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    color: rgb(58,58,58,0.9);
+    letter-spacing: -1px;
 }
