@@ -1,7 +1,7 @@
 .offcanvas{
     padding-top: 1rem;
     z-index: 1000002;
-    background-color: #E3E3E3;
+    background-color: #FFFFFF;
 }
 
 .offcanvas-backdrop.show{
@@ -57,7 +57,7 @@
 
 .categoriaOffcanvas:hover{
     border-bottom: 1px solid rgb(206, 29, 31,1);
-    background-color: #FFFFFF;
+    background-color: #E3E3E3;
     color: rgb(58,58,58, 1);
     transform: scale(1.02);
 }

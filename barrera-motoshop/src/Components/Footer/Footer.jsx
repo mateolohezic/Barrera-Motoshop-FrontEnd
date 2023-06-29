@@ -14,7 +14,7 @@ function Footer() {
                     <div className='footer'>
                         <div className='logoFooter'>
                             <a href="/">
-                                <img src={logo} alt="" />
+                                <img src={logo} alt="Footer Barrera Motoshop" />
                             </a>
                         </div>
                         <div className='infoFooter'>

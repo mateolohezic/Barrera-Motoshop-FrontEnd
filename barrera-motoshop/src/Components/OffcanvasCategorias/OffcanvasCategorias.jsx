@@ -10,84 +10,117 @@ function OffcanvasCategorias() {
                 <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div className="offcanvas-body">
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
-                <div className='categoriaOffcanvas'>
-                    <span>Categoría</span><i className="bi bi-chevron-right"></i>
-                </div>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+                <a href="/Categorias/Categoria" className='text-decoration-none'>
+                    <div className='categoriaOffcanvas'>
+                        <span>Categoría</span><i className="bi bi-chevron-right"></i>
+                    </div>
+                </a>
+            
             </div>
         </div>
     </>

@@ -13,7 +13,9 @@ function CardProducto() {
             <div className='tituloCardProducto'><span>Casco de moto super piola</span></div>
             <div className='precioCardProducto'><span>$49.999,00</span></div>
             <div className='botonCardProducto'>
-              <button><img src={carrito} alt="" /></button>
+              <a href="/Carrito">            
+                <button><img src={carrito} alt="Producto" /></button>
+              </a>      
             </div>
           </a>
         </div>
