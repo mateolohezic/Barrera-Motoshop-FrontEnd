@@ -1,0 +1,75 @@
+.cardProductoCategorias{
+    width: 240px;
+    background-color: #191919;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 1rem;
+    filter: drop-shadow(0px 0px 5px rgb(0,0,0, 0.4));
+}
+
+.portadaCardProductoCategorias{
+    width: 240px;
+    max-height: 240px;
+    margin: auto;
+    outline: 2px solid #191919;
+    outline-offset: -2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.portadaCardProductoCategorias img{
+    max-width: 100%;
+    max-height: 240px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tituloCardProductoCategorias{
+    text-align: start;
+    padding-inline: 1rem;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: rgb(255,255,255,0.8);
+}
+
+.tituloCardProductoCategorias span{
+    /* font-family: 'Anton', sans-serif; */
+    letter-spacing: -1px;
+}
+
+.precioCardProductoCategorias{
+    text-align: start;
+    padding-inline: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(255,255,255,0.9);
+    letter-spacing: -1px;
+}
+
+.botonCardProductoCategorias{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-top: 1rem;
+}
+
+.botonCardProductoCategorias button{
+    padding-inline: 0.6rem;
+    padding-block: 0.3rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #CE1D1F;
+    color: #FFFFFF;
+    text-align: start;
+    transition: all 0.3s ease;
+}
+
+.botonCardProductoCategorias button:hover{
+    padding-right: 1.5rem;
+}
+
+.botonCardProductoCategorias img{
+    width: 15px;
+    color: #FFFFFF;
+}
