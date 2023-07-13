@@ -4,6 +4,7 @@ import Cookies from 'js-cookie'
 import logo from '../../assets/logo.svg'
 import logoUser from '../../assets/user.svg'
 import logoCarrito from '../../assets/carrito.svg'
+import logoLupa from '../../assets/lupa.svg'
 import logoCategorias from '../../assets/menuCategorias.png'
 import { useLocation } from 'react-router-dom';
 import './header.css'
@@ -42,6 +43,13 @@ function Header() {
                         </a>
                         <div className="collapse navbar-collapse" id="navbarPrincipal">
                             <ul className="navbar-nav ms-auto">
+                                
+                                <li className="nav-item itemBuscadorNavbar">
+                                    <form class="formularioNavbar" role="search">
+                                        <input class="form-control inputBuscadorNavbar" type="search" placeholder="Buscar un producto..." aria-label="Search" />
+                                        <button class="botonBuscadorNavbar" type="submit"><img src={logoLupa} alt="" /></button>
+                                    </form>
+                                </li>
                                 <li className="nav-item">
                                     <a className="nav-link" aria-current="page" href="/"><img src={logoCarrito} alt="Carrito Barra de Navegación" /></a>
                                 </li>
@@ -50,7 +58,7 @@ function Header() {
                                 </li>
                                 <li className='nav-item'>
                                     <a className="nav-link" data-bs-toggle="offcanvas" href="#offcanvasCategorias" role="button" aria-controls="offcanvasCategorias">
-                                        <img src={logoCategorias} alt="Perfil Barra de Navegación" />
+                                        <img src={logoCategorias} alt="Categorias Barra de Navegación" />
                                     </a>
                                 </li>
                             </ul>

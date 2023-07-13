@@ -143,3 +143,39 @@
     top: 28px;
     left: 5px;
 }
+
+.itemBuscadorNavbar{
+    padding-right: 1rem;
+    position: relative;
+    top: 6px;
+}
+
+.formularioNavbar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBuscadorNavbar{
+    position: relative;
+    width: 100%;
+}
+
+.botonBuscadorNavbar{
+    position: absolute;
+    right: 0;
+    margin-right: 0.5rem;
+    background-color: transparent;
+}
+
+.botonBuscadorNavbar img{
+    width: 20px;
+    opacity: 0.5;
+    transition: all .3s ease;
+}
+
+.botonBuscadorNavbar:hover img{
+    transform: scale(1.2);
+    opacity: 1;
+}
